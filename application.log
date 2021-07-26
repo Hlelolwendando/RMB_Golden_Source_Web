@@ -1,0 +1,405 @@
+2021-07-12 17:38:07,070 DEBUG [main] InternalLoggerFactory:63 - Using SLF4J as the default logging framework
+2021-07-12 17:38:07,085 DEBUG [main] ResourceLeakDetector:129 - -Dio.netty.leakDetection.level: simple
+2021-07-12 17:38:07,085 DEBUG [main] ResourceLeakDetector:130 - -Dio.netty.leakDetection.targetRecords: 4
+2021-07-12 17:38:07,085 DEBUG [main] ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@37858383
+2021-07-12 17:38:07,100 DEBUG [main] PlatformDependent:1063 - Platform: Windows
+2021-07-12 17:38:07,109 DEBUG [main] PlatformDependent0:433 - -Dio.netty.noUnsafe: false
+2021-07-12 17:38:07,109 DEBUG [main] PlatformDependent0:927 - Java version: 8
+2021-07-12 17:38:07,110 DEBUG [main] PlatformDependent0:131 - sun.misc.Unsafe.theUnsafe: available
+2021-07-12 17:38:07,110 DEBUG [main] PlatformDependent0:155 - sun.misc.Unsafe.copyMemory: available
+2021-07-12 17:38:07,110 DEBUG [main] PlatformDependent0:193 - java.nio.Buffer.address: available
+2021-07-12 17:38:07,110 DEBUG [main] PlatformDependent0:258 - direct buffer constructor: available
+2021-07-12 17:38:07,110 DEBUG [main] PlatformDependent0:332 - java.nio.Bits.unaligned: available, true
+2021-07-12 17:38:07,110 DEBUG [main] PlatformDependent0:397 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2021-07-12 17:38:07,110 DEBUG [main] PlatformDependent0:419 - java.nio.DirectByteBuffer.<init>(long, int): available
+2021-07-12 17:38:07,110 DEBUG [main] PlatformDependent:1106 - sun.misc.Unsafe: available
+2021-07-12 17:38:07,110 DEBUG [main] PlatformDependent:1227 - -Dio.netty.tmpdir: C:\Users\REVERS~1\AppData\Local\Temp (java.io.tmpdir)
+2021-07-12 17:38:07,110 DEBUG [main] PlatformDependent:1306 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2021-07-12 17:38:07,110 DEBUG [main] PlatformDependent:178 - -Dio.netty.maxDirectMemory: 2816999424 bytes
+2021-07-12 17:38:07,110 DEBUG [main] PlatformDependent:185 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2021-07-12 17:38:07,110 DEBUG [main] CleanerJava6:92 - java.nio.ByteBuffer.cleaner(): available
+2021-07-12 17:38:07,110 DEBUG [main] PlatformDependent:205 - -Dio.netty.noPreferDirect: false
+2021-07-12 17:38:07,110 DEBUG [main] PlatformDependent:967 - org.jctools-core.MpscChunkedArrayQueue: available
+2021-07-12 17:38:07,126 DEBUG [main] InternalThreadLocalMap:83 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2021-07-12 17:38:07,126 DEBUG [main] InternalThreadLocalMap:86 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2021-07-12 17:38:07,385 DEBUG [main] JdkSslContext:97 - Default protocols (JDK): [TLSv1.2] 
+2021-07-12 17:38:07,385 DEBUG [main] JdkSslContext:98 - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+2021-07-12 17:38:07,401 DEBUG [main] MultithreadEventLoopGroup:44 - -Dio.netty.eventLoopThreads: 16
+2021-07-12 17:38:07,416 DEBUG [main] NioEventLoop:106 - -Dio.netty.noKeySetOptimization: false
+2021-07-12 17:38:07,416 DEBUG [main] NioEventLoop:107 - -Dio.netty.selectorAutoRebuildThreshold: 512
+2021-07-12 17:38:07,443 DEBUG [main] PooledByteBufAllocator:155 - -Dio.netty.allocator.numHeapArenas: 16
+2021-07-12 17:38:07,443 DEBUG [main] PooledByteBufAllocator:156 - -Dio.netty.allocator.numDirectArenas: 16
+2021-07-12 17:38:07,443 DEBUG [main] PooledByteBufAllocator:158 - -Dio.netty.allocator.pageSize: 8192
+2021-07-12 17:38:07,443 DEBUG [main] PooledByteBufAllocator:163 - -Dio.netty.allocator.maxOrder: 11
+2021-07-12 17:38:07,443 DEBUG [main] PooledByteBufAllocator:167 - -Dio.netty.allocator.chunkSize: 16777216
+2021-07-12 17:38:07,443 DEBUG [main] PooledByteBufAllocator:168 - -Dio.netty.allocator.smallCacheSize: 256
+2021-07-12 17:38:07,443 DEBUG [main] PooledByteBufAllocator:169 - -Dio.netty.allocator.normalCacheSize: 64
+2021-07-12 17:38:07,443 DEBUG [main] PooledByteBufAllocator:170 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2021-07-12 17:38:07,443 DEBUG [main] PooledByteBufAllocator:171 - -Dio.netty.allocator.cacheTrimInterval: 8192
+2021-07-12 17:38:07,443 DEBUG [main] PooledByteBufAllocator:172 - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2021-07-12 17:38:07,443 DEBUG [main] PooledByteBufAllocator:173 - -Dio.netty.allocator.useCacheForAllThreads: true
+2021-07-12 17:38:07,443 DEBUG [main] PooledByteBufAllocator:174 - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2021-07-12 17:38:07,458 DEBUG [main] ByteBufUtil:87 - -Dio.netty.allocator.type: pooled
+2021-07-12 17:38:07,458 DEBUG [main] ByteBufUtil:96 - -Dio.netty.threadLocalDirectBufferSize: 0
+2021-07-12 17:38:07,458 DEBUG [main] ByteBufUtil:99 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2021-07-12 17:38:08,242 DEBUG [Forwarding newSession on session null to remote] DefaultChannelId:79 - -Dio.netty.processId: 17324 (auto-detected)
+2021-07-12 17:38:08,244 DEBUG [Forwarding newSession on session null to remote] NetUtil:135 - -Djava.net.preferIPv4Stack: false
+2021-07-12 17:38:08,244 DEBUG [Forwarding newSession on session null to remote] NetUtil:136 - -Djava.net.preferIPv6Addresses: false
+2021-07-12 17:38:08,310 DEBUG [Forwarding newSession on session null to remote] NetUtilInitializations:129 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2021-07-12 17:38:08,311 DEBUG [Forwarding newSession on session null to remote] NetUtil:187 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2021-07-12 17:38:08,384 DEBUG [Forwarding newSession on session null to remote] DefaultChannelId:101 - -Dio.netty.machineId: 00:45:e2:ff:fe:5e:82:a5 (auto-detected)
+2021-07-12 17:38:08,426 DEBUG [AsyncHttpClient-1-2] AbstractByteBuf:63 - -Dio.netty.buffer.checkAccessible: true
+2021-07-12 17:38:08,426 DEBUG [AsyncHttpClient-1-2] AbstractByteBuf:64 - -Dio.netty.buffer.checkBounds: true
+2021-07-12 17:38:08,426 DEBUG [AsyncHttpClient-1-2] ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@71419bf2
+2021-07-12 17:38:08,444 DEBUG [AsyncHttpClient-1-2] NettyConnectListener:73 - Using new Channel '[id: 0xd307db70, L:/127.0.0.1:65295 - R:localhost/127.0.0.1:34160]' for 'POST' to '/session'
+2021-07-12 17:38:08,453 DEBUG [AsyncHttpClient-1-2] Recycler:103 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2021-07-12 17:38:08,453 DEBUG [AsyncHttpClient-1-2] Recycler:104 - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2021-07-12 17:38:08,454 DEBUG [AsyncHttpClient-1-2] Recycler:105 - -Dio.netty.recycler.linkCapacity: 16
+2021-07-12 17:38:08,454 DEBUG [AsyncHttpClient-1-2] Recycler:106 - -Dio.netty.recycler.ratio: 8
+2021-07-12 17:38:08,454 DEBUG [AsyncHttpClient-1-2] Recycler:107 - -Dio.netty.recycler.delayedQueue.ratio: 8
+2021-07-12 17:38:09,063 DEBUG [AsyncHttpClient-1-2] HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session HTTP/1.1
+User-Agent: selenium/4.0.0-beta-4 (java windows)
+Content-Length: 365
+Content-Type: application/json; charset=utf-8
+host: localhost:34160
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 759
+
+2021-07-12 17:38:09,075 DEBUG [AsyncHttpClient-1-2] ChannelManager:270 - Adding key: http://localhost:34160 for channel [id: 0xd307db70, L:/127.0.0.1:65295 - R:localhost/127.0.0.1:34160]
+2021-07-12 17:38:09,163 DEBUG [AsyncHttpClient-1-3] NettyConnectListener:73 - Using new Channel '[id: 0x1b1eaac8, L:/127.0.0.1:62948 - R:localhost/127.0.0.1:65296]' for 'GET' to '/json/version'
+2021-07-12 17:38:09,165 DEBUG [AsyncHttpClient-1-3] HttpHandler:70 - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /json/version HTTP/1.1
+User-Agent: selenium/4.0.0-beta-4 (java windows)
+host: localhost:65296
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=UTF-8
+content-length: 426
+
+2021-07-12 17:38:09,166 DEBUG [AsyncHttpClient-1-3] ChannelManager:270 - Adding key: http://localhost:65296 for channel [id: 0x1b1eaac8, L:/127.0.0.1:62948 - R:localhost/127.0.0.1:65296]
+2021-07-12 17:38:09,174 DEBUG [main] ThreadLocalRandom:212 - -Dio.netty.initialSeedUniquifier: 0xee2da94effdec612
+2021-07-12 17:38:09,177 DEBUG [AsyncHttpClient-1-4] NettyConnectListener:73 - Using new Channel '[id: 0x9769b3f5, L:/127.0.0.1:62949 - R:localhost/127.0.0.1:65296]' for 'GET' to '/devtools/browser/7fce0112-0227-4377-bdbb-4ac0013c2e61'
+2021-07-12 17:38:09,179 DEBUG [AsyncHttpClient-1-4] WebSocketHandler:105 - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /devtools/browser/7fce0112-0227-4377-bdbb-4ac0013c2e61 HTTP/1.1
+upgrade: websocket
+connection: upgrade
+sec-websocket-key: +LJ9nrIIlPd1q3yJIaJHow==
+sec-websocket-version: 13
+origin: http://localhost:65296
+host: localhost:65296
+accept: */*
+user-agent: AHC/2.1
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 101 WebSocket Protocol Handshake
+Upgrade: WebSocket
+Connection: Upgrade
+Sec-WebSocket-Accept: owANCUkXe/f7LXB3z27b1It6X2U=
+
+2021-07-12 17:38:09,216 DEBUG [Forwarding setTimeout on session ad697e4fad4c5bd4405d397c80765b1a to remote] NettyRequestSender:593 - Using pooled Channel '[id: 0xd307db70, L:/127.0.0.1:65295 - R:localhost/127.0.0.1:34160]' for 'POST' to 'http://localhost:34160/session/ad697e4fad4c5bd4405d397c80765b1a/timeouts'
+2021-07-12 17:38:09,216 DEBUG [Forwarding setTimeout on session ad697e4fad4c5bd4405d397c80765b1a to remote] NettyRequestSender:251 - Using open Channel [id: 0xd307db70, L:/127.0.0.1:65295 - R:localhost/127.0.0.1:34160] for POST '/session/ad697e4fad4c5bd4405d397c80765b1a/timeouts'
+2021-07-12 17:38:09,223 DEBUG [AsyncHttpClient-1-2] HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/ad697e4fad4c5bd4405d397c80765b1a/timeouts HTTP/1.1
+User-Agent: selenium/4.0.0-beta-4 (java windows)
+Content-Length: 23
+Content-Type: application/json; charset=utf-8
+host: localhost:34160
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+2021-07-12 17:38:09,224 DEBUG [AsyncHttpClient-1-2] ChannelManager:270 - Adding key: http://localhost:34160 for channel [id: 0xd307db70, L:/127.0.0.1:65295 - R:localhost/127.0.0.1:34160]
+2021-07-12 17:38:09,227 DEBUG [Forwarding maximizeCurrentWindow on session ad697e4fad4c5bd4405d397c80765b1a to remote] NettyRequestSender:593 - Using pooled Channel '[id: 0xd307db70, L:/127.0.0.1:65295 - R:localhost/127.0.0.1:34160]' for 'POST' to 'http://localhost:34160/session/ad697e4fad4c5bd4405d397c80765b1a/window/maximize'
+2021-07-12 17:38:09,228 DEBUG [Forwarding maximizeCurrentWindow on session ad697e4fad4c5bd4405d397c80765b1a to remote] NettyRequestSender:251 - Using open Channel [id: 0xd307db70, L:/127.0.0.1:65295 - R:localhost/127.0.0.1:34160] for POST '/session/ad697e4fad4c5bd4405d397c80765b1a/window/maximize'
+2021-07-12 17:38:09,351 DEBUG [AsyncHttpClient-1-2] HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/ad697e4fad4c5bd4405d397c80765b1a/window/maximize HTTP/1.1
+User-Agent: selenium/4.0.0-beta-4 (java windows)
+Content-Length: 3
+Content-Type: application/json; charset=utf-8
+host: localhost:34160
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 51
+
+2021-07-12 17:38:09,352 DEBUG [AsyncHttpClient-1-2] ChannelManager:270 - Adding key: http://localhost:34160 for channel [id: 0xd307db70, L:/127.0.0.1:65295 - R:localhost/127.0.0.1:34160]
+2021-07-12 17:38:09,356 DEBUG [Forwarding get on session ad697e4fad4c5bd4405d397c80765b1a to remote] NettyRequestSender:593 - Using pooled Channel '[id: 0xd307db70, L:/127.0.0.1:65295 - R:localhost/127.0.0.1:34160]' for 'POST' to 'http://localhost:34160/session/ad697e4fad4c5bd4405d397c80765b1a/url'
+2021-07-12 17:38:09,357 DEBUG [Forwarding get on session ad697e4fad4c5bd4405d397c80765b1a to remote] NettyRequestSender:251 - Using open Channel [id: 0xd307db70, L:/127.0.0.1:65295 - R:localhost/127.0.0.1:34160] for POST '/session/ad697e4fad4c5bd4405d397c80765b1a/url'
+2021-07-12 17:38:09,534 DEBUG [AsyncHttpClient-1-1] DefaultChannelPool:348 - Entry count for : http://localhost:65296 : 1
+2021-07-12 17:38:10,632 DEBUG [AsyncHttpClient-1-1] DefaultChannelPool:348 - Entry count for : http://localhost:65296 : 1
+2021-07-12 17:38:11,729 DEBUG [AsyncHttpClient-1-1] DefaultChannelPool:348 - Entry count for : http://localhost:65296 : 1
+2021-07-12 17:38:12,832 DEBUG [AsyncHttpClient-1-1] DefaultChannelPool:348 - Entry count for : http://localhost:65296 : 1
+2021-07-12 17:38:13,929 DEBUG [AsyncHttpClient-1-1] DefaultChannelPool:348 - Entry count for : http://localhost:65296 : 1
+2021-07-12 17:38:15,031 DEBUG [AsyncHttpClient-1-1] DefaultChannelPool:348 - Entry count for : http://localhost:65296 : 1
+2021-07-12 17:38:16,137 DEBUG [AsyncHttpClient-1-1] DefaultChannelPool:348 - Entry count for : http://localhost:65296 : 1
+2021-07-12 17:38:17,235 DEBUG [AsyncHttpClient-1-1] DefaultChannelPool:348 - Entry count for : http://localhost:65296 : 1
+2021-07-12 17:38:18,329 DEBUG [AsyncHttpClient-1-1] DefaultChannelPool:348 - Entry count for : http://localhost:65296 : 1
+2021-07-12 17:38:19,429 DEBUG [AsyncHttpClient-1-1] DefaultChannelPool:348 - Entry count for : http://localhost:65296 : 1
+2021-07-12 17:38:20,533 DEBUG [AsyncHttpClient-1-1] DefaultChannelPool:348 - Entry count for : http://localhost:65296 : 1
+2021-07-12 17:38:21,328 DEBUG [AsyncHttpClient-1-2] HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/ad697e4fad4c5bd4405d397c80765b1a/url HTTP/1.1
+User-Agent: selenium/4.0.0-beta-4 (java windows)
+Content-Length: 77
+Content-Type: application/json; charset=utf-8
+host: localhost:34160
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+2021-07-12 17:38:21,328 DEBUG [AsyncHttpClient-1-2] ChannelManager:270 - Adding key: http://localhost:34160 for channel [id: 0xd307db70, L:/127.0.0.1:65295 - R:localhost/127.0.0.1:34160]
+2021-07-12 17:38:21,331 DEBUG [Forwarding setTimeout on session ad697e4fad4c5bd4405d397c80765b1a to remote] NettyRequestSender:593 - Using pooled Channel '[id: 0xd307db70, L:/127.0.0.1:65295 - R:localhost/127.0.0.1:34160]' for 'POST' to 'http://localhost:34160/session/ad697e4fad4c5bd4405d397c80765b1a/timeouts'
+2021-07-12 17:38:21,331 DEBUG [Forwarding setTimeout on session ad697e4fad4c5bd4405d397c80765b1a to remote] NettyRequestSender:251 - Using open Channel [id: 0xd307db70, L:/127.0.0.1:65295 - R:localhost/127.0.0.1:34160] for POST '/session/ad697e4fad4c5bd4405d397c80765b1a/timeouts'
+2021-07-12 17:38:21,333 DEBUG [AsyncHttpClient-1-2] HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/ad697e4fad4c5bd4405d397c80765b1a/timeouts HTTP/1.1
+User-Agent: selenium/4.0.0-beta-4 (java windows)
+Content-Length: 23
+Content-Type: application/json; charset=utf-8
+host: localhost:34160
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+2021-07-12 17:38:21,333 DEBUG [AsyncHttpClient-1-2] ChannelManager:270 - Adding key: http://localhost:34160 for channel [id: 0xd307db70, L:/127.0.0.1:65295 - R:localhost/127.0.0.1:34160]
+2021-07-12 17:38:21,374 DEBUG [Forwarding findElement on session ad697e4fad4c5bd4405d397c80765b1a to remote] NettyRequestSender:593 - Using pooled Channel '[id: 0xd307db70, L:/127.0.0.1:65295 - R:localhost/127.0.0.1:34160]' for 'POST' to 'http://localhost:34160/session/ad697e4fad4c5bd4405d397c80765b1a/element'
+2021-07-12 17:38:21,374 DEBUG [Forwarding findElement on session ad697e4fad4c5bd4405d397c80765b1a to remote] NettyRequestSender:251 - Using open Channel [id: 0xd307db70, L:/127.0.0.1:65295 - R:localhost/127.0.0.1:34160] for POST '/session/ad697e4fad4c5bd4405d397c80765b1a/element'
+2021-07-12 17:38:21,397 DEBUG [AsyncHttpClient-1-2] HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/ad697e4fad4c5bd4405d397c80765b1a/element HTTP/1.1
+User-Agent: selenium/4.0.0-beta-4 (java windows)
+Content-Length: 61
+Content-Type: application/json; charset=utf-8
+host: localhost:34160
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 88
+
+2021-07-12 17:38:21,397 DEBUG [AsyncHttpClient-1-2] ChannelManager:270 - Adding key: http://localhost:34160 for channel [id: 0xd307db70, L:/127.0.0.1:65295 - R:localhost/127.0.0.1:34160]
+2021-07-12 17:38:21,404 DEBUG [Forwarding screenshot on session ad697e4fad4c5bd4405d397c80765b1a to remote] NettyRequestSender:593 - Using pooled Channel '[id: 0xd307db70, L:/127.0.0.1:65295 - R:localhost/127.0.0.1:34160]' for 'GET' to 'http://localhost:34160/session/ad697e4fad4c5bd4405d397c80765b1a/screenshot'
+2021-07-12 17:38:21,404 DEBUG [Forwarding screenshot on session ad697e4fad4c5bd4405d397c80765b1a to remote] NettyRequestSender:251 - Using open Channel [id: 0xd307db70, L:/127.0.0.1:65295 - R:localhost/127.0.0.1:34160] for GET '/session/ad697e4fad4c5bd4405d397c80765b1a/screenshot'
+2021-07-12 17:38:21,495 DEBUG [AsyncHttpClient-1-2] HttpHandler:70 - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/ad697e4fad4c5bd4405d397c80765b1a/screenshot HTTP/1.1
+User-Agent: selenium/4.0.0-beta-4 (java windows)
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: localhost:34160
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 113212
+
+2021-07-12 17:38:21,504 DEBUG [AsyncHttpClient-1-2] ChannelManager:270 - Adding key: http://localhost:34160 for channel [id: 0xd307db70, L:/127.0.0.1:65295 - R:localhost/127.0.0.1:34160]
+2021-07-12 17:38:21,559 DEBUG [main] cache:45 - Couldn't find template in cache for "spark/spark.spa.ftl"("en_ZA", UTF-8, parsed); will try to load it.
+2021-07-12 17:38:21,559 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/spark.spa_en_ZA.ftl"): Not found
+2021-07-12 17:38:21,559 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/spark.spa_en.ftl"): Not found
+2021-07-12 17:38:21,559 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/spark.spa.ftl"): Found
+2021-07-12 17:38:21,559 DEBUG [main] cache:45 - Loading template for "spark/spark.spa.ftl"("en_ZA", UTF-8, parsed) from "jar:file:/C:/Users/Reverside/.m2/repository/com/aventstack/extentreports/5.0.8/extentreports-5.0.8.jar!/com/aventstack/extentreports/templates/spark/spark.spa.ftl"
+2021-07-12 17:38:21,639 DEBUG [AsyncHttpClient-1-1] DefaultChannelPool:348 - Entry count for : http://localhost:34160 : 1
+2021-07-12 17:38:21,639 DEBUG [AsyncHttpClient-1-1] DefaultChannelPool:348 - Entry count for : http://localhost:65296 : 1
+2021-07-12 17:38:21,639 DEBUG [main] cache:45 - Couldn't find template in cache for "commons/commons-variables.ftl"("en_ZA", UTF-8, parsed); will try to load it.
+2021-07-12 17:38:21,639 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("commons/commons-variables_en_ZA.ftl"): Not found
+2021-07-12 17:38:21,639 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("commons/commons-variables_en.ftl"): Not found
+2021-07-12 17:38:21,639 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("commons/commons-variables.ftl"): Found
+2021-07-12 17:38:21,639 DEBUG [main] cache:45 - Loading template for "commons/commons-variables.ftl"("en_ZA", UTF-8, parsed) from "jar:file:/C:/Users/Reverside/.m2/repository/com/aventstack/extentreports/5.0.8/extentreports-5.0.8.jar!/com/aventstack/extentreports/templates/commons/commons-variables.ftl"
+2021-07-12 17:38:21,745 DEBUG [main] cache:45 - Couldn't find template in cache for "commons/commons-macros.ftl"("en_ZA", UTF-8, parsed); will try to load it.
+2021-07-12 17:38:21,745 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("commons/commons-macros_en_ZA.ftl"): Not found
+2021-07-12 17:38:21,745 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("commons/commons-macros_en.ftl"): Not found
+2021-07-12 17:38:21,745 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("commons/commons-macros.ftl"): Found
+2021-07-12 17:38:21,745 DEBUG [main] cache:45 - Loading template for "commons/commons-macros.ftl"("en_ZA", UTF-8, parsed) from "jar:file:/C:/Users/Reverside/.m2/repository/com/aventstack/extentreports/5.0.8/extentreports-5.0.8.jar!/com/aventstack/extentreports/templates/commons/commons-macros.ftl"
+2021-07-12 17:38:21,761 DEBUG [main] cache:45 - Couldn't find template in cache for "spark/macros/attributes.ftl"("en_ZA", UTF-8, parsed); will try to load it.
+2021-07-12 17:38:21,761 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/macros/attributes_en_ZA.ftl"): Not found
+2021-07-12 17:38:21,761 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/macros/attributes_en.ftl"): Not found
+2021-07-12 17:38:21,761 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/macros/attributes.ftl"): Found
+2021-07-12 17:38:21,761 DEBUG [main] cache:45 - Loading template for "spark/macros/attributes.ftl"("en_ZA", UTF-8, parsed) from "jar:file:/C:/Users/Reverside/.m2/repository/com/aventstack/extentreports/5.0.8/extentreports-5.0.8.jar!/com/aventstack/extentreports/templates/spark/macros/attributes.ftl"
+2021-07-12 17:38:21,761 DEBUG [main] cache:45 - Couldn't find template in cache for "spark/macros/log.ftl"("en_ZA", UTF-8, parsed); will try to load it.
+2021-07-12 17:38:21,761 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/macros/log_en_ZA.ftl"): Not found
+2021-07-12 17:38:21,761 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/macros/log_en.ftl"): Not found
+2021-07-12 17:38:21,761 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/macros/log.ftl"): Found
+2021-07-12 17:38:21,761 DEBUG [main] cache:45 - Loading template for "spark/macros/log.ftl"("en_ZA", UTF-8, parsed) from "jar:file:/C:/Users/Reverside/.m2/repository/com/aventstack/extentreports/5.0.8/extentreports-5.0.8.jar!/com/aventstack/extentreports/templates/spark/macros/log.ftl"
+2021-07-12 17:38:21,761 DEBUG [main] cache:45 - Couldn't find template in cache for "spark/macros/recurse_nodes.ftl"("en_ZA", UTF-8, parsed); will try to load it.
+2021-07-12 17:38:21,776 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes_en_ZA.ftl"): Not found
+2021-07-12 17:38:21,776 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes_en.ftl"): Not found
+2021-07-12 17:38:21,776 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes.ftl"): Found
+2021-07-12 17:38:21,776 DEBUG [main] cache:45 - Loading template for "spark/macros/recurse_nodes.ftl"("en_ZA", UTF-8, parsed) from "jar:file:/C:/Users/Reverside/.m2/repository/com/aventstack/extentreports/5.0.8/extentreports-5.0.8.jar!/com/aventstack/extentreports/templates/spark/macros/recurse_nodes.ftl"
+2021-07-12 17:38:21,776 DEBUG [main] cache:45 - "spark/macros/log.ftl"("en_ZA", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-07-12 17:38:21,776 DEBUG [main] cache:45 - Couldn't find template in cache for "spark/macros/attr-common.ftl"("en_ZA", UTF-8, parsed); will try to load it.
+2021-07-12 17:38:21,776 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/macros/attr-common_en_ZA.ftl"): Not found
+2021-07-12 17:38:21,776 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/macros/attr-common_en.ftl"): Not found
+2021-07-12 17:38:21,776 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/macros/attr-common.ftl"): Found
+2021-07-12 17:38:21,776 DEBUG [main] cache:45 - Loading template for "spark/macros/attr-common.ftl"("en_ZA", UTF-8, parsed) from "jar:file:/C:/Users/Reverside/.m2/repository/com/aventstack/extentreports/5.0.8/extentreports-5.0.8.jar!/com/aventstack/extentreports/templates/spark/macros/attr-common.ftl"
+2021-07-12 17:38:21,792 DEBUG [main] cache:45 - Couldn't find template in cache for "spark/partials/head.ftl"("en_ZA", UTF-8, parsed); will try to load it.
+2021-07-12 17:38:21,793 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/head_en_ZA.ftl"): Not found
+2021-07-12 17:38:21,794 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/head_en.ftl"): Not found
+2021-07-12 17:38:21,794 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/head.ftl"): Found
+2021-07-12 17:38:21,794 DEBUG [main] cache:45 - Loading template for "spark/partials/head.ftl"("en_ZA", UTF-8, parsed) from "jar:file:/C:/Users/Reverside/.m2/repository/com/aventstack/extentreports/5.0.8/extentreports-5.0.8.jar!/com/aventstack/extentreports/templates/spark/partials/head.ftl"
+2021-07-12 17:38:21,794 DEBUG [main] cache:45 - Couldn't find template in cache for "commons/commons-inject-css.ftl"("en_ZA", UTF-8, parsed); will try to load it.
+2021-07-12 17:38:21,794 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("commons/commons-inject-css_en_ZA.ftl"): Not found
+2021-07-12 17:38:21,794 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("commons/commons-inject-css_en.ftl"): Not found
+2021-07-12 17:38:21,794 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("commons/commons-inject-css.ftl"): Found
+2021-07-12 17:38:21,794 DEBUG [main] cache:45 - Loading template for "commons/commons-inject-css.ftl"("en_ZA", UTF-8, parsed) from "jar:file:/C:/Users/Reverside/.m2/repository/com/aventstack/extentreports/5.0.8/extentreports-5.0.8.jar!/com/aventstack/extentreports/templates/commons/commons-inject-css.ftl"
+2021-07-12 17:38:21,794 DEBUG [main] cache:45 - Couldn't find template in cache for "spark/partials/navbar.ftl"("en_ZA", UTF-8, parsed); will try to load it.
+2021-07-12 17:38:21,794 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/navbar_en_ZA.ftl"): Not found
+2021-07-12 17:38:21,804 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/navbar_en.ftl"): Not found
+2021-07-12 17:38:21,804 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/navbar.ftl"): Found
+2021-07-12 17:38:21,804 DEBUG [main] cache:45 - Loading template for "spark/partials/navbar.ftl"("en_ZA", UTF-8, parsed) from "jar:file:/C:/Users/Reverside/.m2/repository/com/aventstack/extentreports/5.0.8/extentreports-5.0.8.jar!/com/aventstack/extentreports/templates/spark/partials/navbar.ftl"
+2021-07-12 17:38:21,804 DEBUG [main] cache:45 - Couldn't find template in cache for "spark/partials/sidenav.ftl"("en_ZA", UTF-8, parsed); will try to load it.
+2021-07-12 17:38:21,804 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/sidenav_en_ZA.ftl"): Not found
+2021-07-12 17:38:21,804 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/sidenav_en.ftl"): Not found
+2021-07-12 17:38:21,804 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/sidenav.ftl"): Found
+2021-07-12 17:38:21,804 DEBUG [main] cache:45 - Loading template for "spark/partials/sidenav.ftl"("en_ZA", UTF-8, parsed) from "jar:file:/C:/Users/Reverside/.m2/repository/com/aventstack/extentreports/5.0.8/extentreports-5.0.8.jar!/com/aventstack/extentreports/templates/spark/partials/sidenav.ftl"
+2021-07-12 17:38:21,828 DEBUG [main] cache:45 - Couldn't find template in cache for "spark/partials/test.ftl"("en_ZA", UTF-8, parsed); will try to load it.
+2021-07-12 17:38:21,828 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/test_en_ZA.ftl"): Not found
+2021-07-12 17:38:21,829 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/test_en.ftl"): Not found
+2021-07-12 17:38:21,829 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/test.ftl"): Found
+2021-07-12 17:38:21,829 DEBUG [main] cache:45 - Loading template for "spark/partials/test.ftl"("en_ZA", UTF-8, parsed) from "jar:file:/C:/Users/Reverside/.m2/repository/com/aventstack/extentreports/5.0.8/extentreports-5.0.8.jar!/com/aventstack/extentreports/templates/spark/partials/test.ftl"
+2021-07-12 17:38:21,829 DEBUG [main] cache:45 - Couldn't find template in cache for "spark/partials/standard-content.ftl"("en_ZA", UTF-8, parsed); will try to load it.
+2021-07-12 17:38:21,829 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/standard-content_en_ZA.ftl"): Not found
+2021-07-12 17:38:21,829 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/standard-content_en.ftl"): Not found
+2021-07-12 17:38:21,829 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/standard-content.ftl"): Found
+2021-07-12 17:38:21,829 DEBUG [main] cache:45 - Loading template for "spark/partials/standard-content.ftl"("en_ZA", UTF-8, parsed) from "jar:file:/C:/Users/Reverside/.m2/repository/com/aventstack/extentreports/5.0.8/extentreports-5.0.8.jar!/com/aventstack/extentreports/templates/spark/partials/standard-content.ftl"
+2021-07-12 17:38:21,849 DEBUG [main] cache:45 - Couldn't find template in cache for "spark/partials/exception.ftl"("en_ZA", UTF-8, parsed); will try to load it.
+2021-07-12 17:38:21,850 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/exception_en_ZA.ftl"): Not found
+2021-07-12 17:38:21,850 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/exception_en.ftl"): Not found
+2021-07-12 17:38:21,850 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/exception.ftl"): Found
+2021-07-12 17:38:21,851 DEBUG [main] cache:45 - Loading template for "spark/partials/exception.ftl"("en_ZA", UTF-8, parsed) from "jar:file:/C:/Users/Reverside/.m2/repository/com/aventstack/extentreports/5.0.8/extentreports-5.0.8.jar!/com/aventstack/extentreports/templates/spark/partials/exception.ftl"
+2021-07-12 17:38:21,852 DEBUG [main] cache:45 - Couldn't find template in cache for "spark/partials/category.ftl"("en_ZA", UTF-8, parsed); will try to load it.
+2021-07-12 17:38:21,852 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/category_en_ZA.ftl"): Not found
+2021-07-12 17:38:21,852 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/category_en.ftl"): Not found
+2021-07-12 17:38:21,853 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/category.ftl"): Found
+2021-07-12 17:38:21,853 DEBUG [main] cache:45 - Loading template for "spark/partials/category.ftl"("en_ZA", UTF-8, parsed) from "jar:file:/C:/Users/Reverside/.m2/repository/com/aventstack/extentreports/5.0.8/extentreports-5.0.8.jar!/com/aventstack/extentreports/templates/spark/partials/category.ftl"
+2021-07-12 17:38:21,854 DEBUG [main] cache:45 - Couldn't find template in cache for "spark/partials/device.ftl"("en_ZA", UTF-8, parsed); will try to load it.
+2021-07-12 17:38:21,855 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/device_en_ZA.ftl"): Not found
+2021-07-12 17:38:21,856 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/device_en.ftl"): Not found
+2021-07-12 17:38:21,856 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/device.ftl"): Found
+2021-07-12 17:38:21,856 DEBUG [main] cache:45 - Loading template for "spark/partials/device.ftl"("en_ZA", UTF-8, parsed) from "jar:file:/C:/Users/Reverside/.m2/repository/com/aventstack/extentreports/5.0.8/extentreports-5.0.8.jar!/com/aventstack/extentreports/templates/spark/partials/device.ftl"
+2021-07-12 17:38:21,857 DEBUG [main] cache:45 - Couldn't find template in cache for "spark/partials/author.ftl"("en_ZA", UTF-8, parsed); will try to load it.
+2021-07-12 17:38:21,858 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/author_en_ZA.ftl"): Not found
+2021-07-12 17:38:21,858 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/author_en.ftl"): Not found
+2021-07-12 17:38:21,859 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/author.ftl"): Found
+2021-07-12 17:38:21,859 DEBUG [main] cache:45 - Loading template for "spark/partials/author.ftl"("en_ZA", UTF-8, parsed) from "jar:file:/C:/Users/Reverside/.m2/repository/com/aventstack/extentreports/5.0.8/extentreports-5.0.8.jar!/com/aventstack/extentreports/templates/spark/partials/author.ftl"
+2021-07-12 17:38:21,860 DEBUG [main] cache:45 - Couldn't find template in cache for "spark/partials/log.ftl"("en_ZA", UTF-8, parsed); will try to load it.
+2021-07-12 17:38:21,861 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/log_en_ZA.ftl"): Not found
+2021-07-12 17:38:21,861 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/log_en.ftl"): Not found
+2021-07-12 17:38:21,862 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/log.ftl"): Found
+2021-07-12 17:38:21,863 DEBUG [main] cache:45 - Loading template for "spark/partials/log.ftl"("en_ZA", UTF-8, parsed) from "jar:file:/C:/Users/Reverside/.m2/repository/com/aventstack/extentreports/5.0.8/extentreports-5.0.8.jar!/com/aventstack/extentreports/templates/spark/partials/log.ftl"
+2021-07-12 17:38:21,864 DEBUG [main] cache:45 - Couldn't find template in cache for "spark/partials/dashboard.ftl"("en_ZA", UTF-8, parsed); will try to load it.
+2021-07-12 17:38:21,865 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/dashboard_en_ZA.ftl"): Not found
+2021-07-12 17:38:21,865 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/dashboard_en.ftl"): Not found
+2021-07-12 17:38:21,866 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/dashboard.ftl"): Found
+2021-07-12 17:38:21,866 DEBUG [main] cache:45 - Loading template for "spark/partials/dashboard.ftl"("en_ZA", UTF-8, parsed) from "jar:file:/C:/Users/Reverside/.m2/repository/com/aventstack/extentreports/5.0.8/extentreports-5.0.8.jar!/com/aventstack/extentreports/templates/spark/partials/dashboard.ftl"
+2021-07-12 17:38:21,903 DEBUG [main] cache:45 - Couldn't find template in cache for "spark/partials/scripts.ftl"("en_ZA", UTF-8, parsed); will try to load it.
+2021-07-12 17:38:21,933 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/scripts_en_ZA.ftl"): Not found
+2021-07-12 17:38:21,934 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/scripts_en.ftl"): Not found
+2021-07-12 17:38:21,935 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("spark/partials/scripts.ftl"): Found
+2021-07-12 17:38:21,935 DEBUG [main] cache:45 - Loading template for "spark/partials/scripts.ftl"("en_ZA", UTF-8, parsed) from "jar:file:/C:/Users/Reverside/.m2/repository/com/aventstack/extentreports/5.0.8/extentreports-5.0.8.jar!/com/aventstack/extentreports/templates/spark/partials/scripts.ftl"
+2021-07-12 17:38:21,937 DEBUG [main] cache:45 - Couldn't find template in cache for "commons/commons-inject-js.ftl"("en_ZA", UTF-8, parsed); will try to load it.
+2021-07-12 17:38:21,937 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("commons/commons-inject-js_en_ZA.ftl"): Not found
+2021-07-12 17:38:21,938 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("commons/commons-inject-js_en.ftl"): Not found
+2021-07-12 17:38:21,939 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("commons/commons-inject-js.ftl"): Found
+2021-07-12 17:38:21,939 DEBUG [main] cache:45 - Loading template for "commons/commons-inject-js.ftl"("en_ZA", UTF-8, parsed) from "jar:file:/C:/Users/Reverside/.m2/repository/com/aventstack/extentreports/5.0.8/extentreports-5.0.8.jar!/com/aventstack/extentreports/templates/commons/commons-inject-js.ftl"
+2021-07-12 17:38:21,947 DEBUG [Driver Command Executor] NettyRequestSender:593 - Using pooled Channel '[id: 0xd307db70, L:/127.0.0.1:65295 - R:localhost/127.0.0.1:34160]' for 'DELETE' to 'http://localhost:34160/session/ad697e4fad4c5bd4405d397c80765b1a'
+2021-07-12 17:38:21,948 DEBUG [Driver Command Executor] NettyRequestSender:251 - Using open Channel [id: 0xd307db70, L:/127.0.0.1:65295 - R:localhost/127.0.0.1:34160] for DELETE '/session/ad697e4fad4c5bd4405d397c80765b1a'
+2021-07-12 17:38:21,949 DEBUG [AsyncHttpClient-1-4] WebSocketHandler:126 - Channel Closed: [id: 0x9769b3f5, L:/127.0.0.1:62949 ! R:localhost/127.0.0.1:65296] with attribute NettyResponseFuture{currentRetry=5,
+	isDone=1,
+	isCancelled=0,
+	asyncHandler=org.asynchttpclient.ws.WebSocketUpgradeHandler@835a04f,
+	nettyRequest=org.asynchttpclient.netty.request.NettyRequest@578cd669,
+	future=java.util.concurrent.CompletableFuture@3d615d83[Completed normally],
+	uri=ws://localhost:65296/devtools/browser/7fce0112-0227-4377-bdbb-4ac0013c2e61,
+	keepAlive=true,
+	redirectCount=0,
+	timeoutsHolder=null,
+	inAuth=0,
+	touch=1626104289189}
+2021-07-12 17:38:21,950 DEBUG [AsyncHttpClient-1-4] ChannelManager:315 - Closing Channel [id: 0x9769b3f5, L:/127.0.0.1:62949 ! R:localhost/127.0.0.1:65296] 
+2021-07-12 17:38:21,981 DEBUG [AsyncHttpClient-1-3] HttpHandler:159 - Unexpected I/O exception on channel [id: 0x1b1eaac8, L:/127.0.0.1:62948 - R:localhost/127.0.0.1:65296]
+java.io.IOException: An existing connection was forcibly closed by the remote host
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2021-07-12 17:38:21,985 DEBUG [AsyncHttpClient-1-3] ChannelManager:315 - Closing Channel [id: 0x1b1eaac8, L:/127.0.0.1:62948 - R:localhost/127.0.0.1:65296] 
+2021-07-12 17:38:21,988 DEBUG [AsyncHttpClient-1-3] HttpHandler:126 - Channel Closed: [id: 0x1b1eaac8, L:/127.0.0.1:62948 ! R:localhost/127.0.0.1:65296] with attribute DISCARD
+2021-07-12 17:38:21,995 DEBUG [AsyncHttpClient-1-2] HttpHandler:70 - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+DELETE /session/ad697e4fad4c5bd4405d397c80765b1a HTTP/1.1
+User-Agent: selenium/4.0.0-beta-4 (java windows)
+Content-Type: application/json; charset=utf-8
+host: localhost:34160
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+2021-07-12 17:38:21,995 DEBUG [AsyncHttpClient-1-2] ChannelManager:270 - Adding key: http://localhost:34160 for channel [id: 0xd307db70, L:/127.0.0.1:65295 - R:localhost/127.0.0.1:34160]
+2021-07-12 17:38:22,080 DEBUG [AsyncHttpClient-1-2] HttpHandler:126 - Channel Closed: [id: 0xd307db70, L:/127.0.0.1:65295 ! R:localhost/127.0.0.1:34160] with attribute DISCARD
+2021-07-12 17:38:22,730 DEBUG [AsyncHttpClient-1-1] DefaultChannelPool:348 - Entry count for : http://localhost:34160 : 1
+2021-07-12 17:38:22,730 DEBUG [AsyncHttpClient-1-1] DefaultChannelPool:348 - Entry count for : http://localhost:65296 : 1
+2021-07-12 17:38:22,730 DEBUG [AsyncHttpClient-1-1] DefaultChannelPool:302 - Adding Candidate expired Channel [id: 0xd307db70, L:/127.0.0.1:65295 ! R:localhost/127.0.0.1:34160] isIdleTimeoutExpired=false isRemotelyClosed=true isTtlExpired=false
+2021-07-12 17:38:22,730 DEBUG [AsyncHttpClient-1-1] DefaultChannelPool:321 - Closing Idle Channel [id: 0xd307db70, L:/127.0.0.1:65295 ! R:localhost/127.0.0.1:34160]
+2021-07-12 17:38:22,731 DEBUG [AsyncHttpClient-1-1] DefaultChannelPool:302 - Adding Candidate expired Channel [id: 0x1b1eaac8, L:/127.0.0.1:62948 ! R:localhost/127.0.0.1:65296] isIdleTimeoutExpired=false isRemotelyClosed=true isTtlExpired=false
+2021-07-12 17:38:22,731 DEBUG [AsyncHttpClient-1-1] DefaultChannelPool:321 - Closing Idle Channel [id: 0x1b1eaac8, L:/127.0.0.1:62948 ! R:localhost/127.0.0.1:65296]
+2021-07-12 17:38:22,731 DEBUG [AsyncHttpClient-1-1] DefaultChannelPool:374 - Closed 2 connections out of 2 in 1 ms
